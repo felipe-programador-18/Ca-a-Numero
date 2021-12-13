@@ -45,7 +45,7 @@ function App() {
 
      if(start === "Fim"){
        return (
-         <div>
+         <div className='textmean'>
          <p>Acertei com número de {draw} com o número de {numberpal} chotes</p>
          <button onClick={getStarted}>Começar denovo</button>
          </div>
